@@ -28,6 +28,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 ### `Additional packages used for this project`
 
-npm install --save react-router-dom
-npm install formik --save
-npm install axios
+npm install --save react-router-dom<br />
+npm install formik --save<br />
+npm install axios<br />
