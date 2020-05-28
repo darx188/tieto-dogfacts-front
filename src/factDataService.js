@@ -20,5 +20,6 @@ class factDataService {
     createTask(fact) {
         return axios.post(`${FACT_API_URL}/facts/`, fact);
     }
+
 }
 export default new factDataService()
