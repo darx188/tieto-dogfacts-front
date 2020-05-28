@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const FACT_API_URL = 'https://shrouded-reef-71173.herokuapp.com'
+const FACT_API_URL = 'localhost:8080'
 class factDataService {
     retrieveAllFacts() {
         return axios.get(`${FACT_API_URL}/facts`);
